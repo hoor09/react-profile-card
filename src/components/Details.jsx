@@ -1,12 +1,13 @@
 import React from 'react'
 
-export const Details = () => {
+export const Details = (props) => {
   return (
     <div id="details">
-    <h3> Zainab Sarfraz</h3>
-    <p><strong>Goal:</strong>Become MERN stak developer</p>
-    <p><strong>Email:</strong> hoor94945@gmail.com</p>
-    <p><strong>Country:</strong> Pakistan</p>
+    <h3> {props.name}</h3>
+    <p><strong>Goal:</strong> {props.goal}</p>
+    <p><strong>Email:</strong> {props.email}</p>
+    <p><strong>Country:</strong> {props.country}</p>
+
      </div>
   )
 }

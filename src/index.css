@@ -15,6 +15,12 @@
   text-align: center;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
+#cards{
+   display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 button{
    background-color: #007bff;
   color: white;

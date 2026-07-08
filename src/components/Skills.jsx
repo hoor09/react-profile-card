@@ -1,9 +1,12 @@
 import React from 'react'
 
-export const Skills = () => {
+export const Skills = (props) => {
   return (
     <div>
-        <p><strong>Skills:</strong>HTML, CSS, JavaScript</p>
+        <p><b>Skills:</b></p>
+        <p>{props.skill1}</p>
+        <p>{props.skill2}</p>
+        <p>{props.skill3}</p>
     </div>
   )
 }

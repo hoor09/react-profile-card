@@ -7,13 +7,46 @@ import Skills from "./components/Skills";
 import Footer from "./components/Footer";
 function App() {
   return (
-    <div id="parent">
+    <div id="cards">
+      <div id="parent">
    <Header />
    <Profile />
-   <Details />
-   <Skills />
+   <Details 
+   name="Zainab Sarfraz"
+   goal="Become a MERN stack developer"
+   country="Pakistan"
+   email="hoor94945@gmail.com"
+   />
+   <Skills 
+   skill1="HTML"
+   skill2="CSS"
+   skill3="JavaScript"
+
+   />
    <Button />
-   <Footer />
+   <Footer
+   name="Zainab" />
+   </div>
+<div id="parent">
+   <Header />
+   <Profile />
+   <Details 
+   name="Ahmed Ali"
+   goal="Become a Backend developer"
+   country="Pakistan"
+   email="ali445@gmail.com"
+   />
+   <Skills 
+   skill1="Node.js"
+   skill2="Express.js"
+   skill3="MongoDB"
+
+   />
+   <Button />
+   <Footer
+   name="Ali" />
+   </div>
+   
 
     </div>
 

@@ -1,9 +1,9 @@
 import React from 'react'
 
-export const Footer = () => {
+export const Footer = (props) => {
   return (
     <div>
-        <p>Made with ❤️ by Zainab</p>
+        <p>Made with ❤️ by {props.name}</p>
     </div>
   )
 }
