@@ -1,12 +1,37 @@
 import React from 'react'
 
-export const Skills = (props) => {
+export const Skills = () => {
+  const skills=[
+  {
+    id:1,
+    name:"HTML"
+  },
+  {
+    id:2,
+    name:"CSS"
+  },
+  {
+    id:3,
+    name:"JavaScript"
+  },
+  {
+    id:4,
+    name:"React"
+  },
+   {
+    id:5,
+    name:"Node.js"
+  },
+   {
+    id:6,
+    name:"MongoDB"
+  }
+  ];
   return (
     <div>
-        <p><b>Skills:</b></p>
-        <p>{props.skill1}</p>
-        <p>{props.skill2}</p>
-        <p>{props.skill3}</p>
+      {skills.map((skill)=>{
+        return <p key={skill.id}>{skill.name}</p>;
+      })}
     </div>
   )
 }
