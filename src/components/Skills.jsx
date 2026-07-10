@@ -39,6 +39,9 @@ experience: "3 years"
     experience: "2 years"
   }
   ];
+  const removeSkill=(name)=>{
+     alert(`Removing ${name}`);
+  }
   return (
     <div>
       {skills.map((skill)=>{
@@ -48,6 +51,7 @@ experience: "3 years"
         name={skill.name}
         level={skill.level}
         experience={skill.experience}
+        removeSkill={removeSkill}
         />
         );
       })}
