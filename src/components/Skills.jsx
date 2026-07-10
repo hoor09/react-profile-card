@@ -1,36 +1,55 @@
-import React from 'react'
+import Skill from "./Skill"
 
 export const Skills = () => {
   const skills=[
   {
     id:1,
-    name:"HTML"
+    name:"HTML",
+    level:"advance",
+    experience: "3 years"
   },
   {
     id:2,
-    name:"CSS"
+    name:"CSS",
+    level:"Advance",
+experience: "3 years"
   },
   {
     id:3,
-    name:"JavaScript"
+    name:"JavaScript",
+    level:"Advance",
+    experience: "3 years"
   },
   {
     id:4,
-    name:"React"
+    name:"React",
+    level:"Beginner",
+    experience: "1 years"
   },
    {
     id:5,
-    name:"Node.js"
+    name:"Node.js",
+    level:"Intermediate",
+    experience: "2 years"
   },
    {
     id:6,
-    name:"MongoDB"
+    name:"MongoDB",
+    level:"Intermediate",
+    experience: "2 years"
   }
   ];
   return (
     <div>
       {skills.map((skill)=>{
-        return <p key={skill.id}>{skill.name}</p>;
+        return (
+        <Skill
+        key={skill.id}
+        name={skill.name}
+        level={skill.level}
+        experience={skill.experience}
+        />
+        );
       })}
     </div>
   )
