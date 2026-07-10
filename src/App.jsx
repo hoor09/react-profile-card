@@ -23,6 +23,7 @@ function App() {
    skill3="JavaScript"
 
    />
+   <br></br>
    <Button />
    <Footer
    name="Zainab" />
@@ -42,6 +43,7 @@ function App() {
    skill3="MongoDB"
 
    />
+   <br></br>
    <Button />
    <Footer
    name="Ali" />

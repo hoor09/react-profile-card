@@ -5,37 +5,37 @@ export const Skills = () => {
   {
     id:1,
     name:"HTML",
-    level:"advance",
+    level:"🟢Advance",
     experience: "3 years"
   },
   {
     id:2,
     name:"CSS",
-    level:"Advance",
+    level:"🟢Advance",
 experience: "3 years"
   },
   {
     id:3,
     name:"JavaScript",
-    level:"Advance",
+    level:"🟢Advance",
     experience: "3 years"
   },
   {
     id:4,
     name:"React",
-    level:"Beginner",
+    level:"🟡Beginner",
     experience: "1 years"
   },
    {
     id:5,
     name:"Node.js",
-    level:"Intermediate",
+    level:"🟠Intermediate",
     experience: "2 years"
   },
    {
     id:6,
     name:"MongoDB",
-    level:"Intermediate",
+    level:"🟠Intermediate",
     experience: "2 years"
   }
   ];
