@@ -5,6 +5,7 @@ import Button from "./components/Button";
 import Profile from "./components/Profile";
 import Skills from "./components/Skills";
 import Footer from "./components/Footer";
+import Products from "./components/Products";
 function App() {
   return (
     <div id="cards">
@@ -48,6 +49,7 @@ function App() {
    <Footer
    name="Ali" />
    </div>
+   <Products/>
    
 
     </div>

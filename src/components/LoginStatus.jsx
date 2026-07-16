@@ -4,7 +4,8 @@ export const LoginStatus = () => {
     const isLoggedIn=false;
   return (
     <div>
-        {isLogedIn? <h3>Welcome Zainab</h3>:<p>Please Login</p>}
+        {isLoggedIn && <h3>Welcome Zainab</h3>}
+        {!isLoggedIn&& <p>Please Login</p>}
     </div>
   )
 }

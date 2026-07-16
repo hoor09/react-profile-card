@@ -4,7 +4,8 @@ export const Notifications = () => {
     const notifications=3;
   return (
     <div>
-        {notifications>0&&<p>You have 3 notifications</p>}
+        {notifications>1&&<p>You have { notifications} notifications</p>}
+        {notifications==1&&<p>You have { notifications} notification</p>}
     </div>
   )
 }
